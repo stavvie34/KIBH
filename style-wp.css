@@ -68,7 +68,7 @@
 
 .mobile-headers {
     position: relative;
-    min-height: 500px;
+    min-height: 525px;
 }
 
 .mobile-headers .mobile-headers-text {
@@ -3057,9 +3057,29 @@ a.pos-hdr-btn {
   #kibh-sec .fh5co-project-item .fh5co-text span {
     font-size: 0.8em;
   }
+  .row-bs.slider-buttons {
+    left: 0;
+  }
+  .pos-hdr-btn {
+    margin-bottom: 10px;
+  }
 }
 
 a.pos-hdr-btn-back:hover {
     background: #6D88A0;
     border: 2px solid #6D88A0;
+}
+
+.staff-slider-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  font-size: 0.8em;
+}
+
+a.staff-slider-btn:hover {
+  border: 2px solid #fff;
+}
+
+#back_to_top span {
+    background: #e8e8e8;
 }
